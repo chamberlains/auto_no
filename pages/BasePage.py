@@ -65,7 +65,7 @@ class BasePage:
         except Exception:
             return False
 
-    def find_elements_by_text(self, locators, text, root, timeout=10):
+    def find_elements_by_text(self, locators, text, root=None, timeout=10):
         root = root or self.driver
         return WebDriverWait(root, timeout).until(condition_wait.element_with_text(locators, text))
 

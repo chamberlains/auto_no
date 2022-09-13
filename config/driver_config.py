@@ -7,9 +7,9 @@ class DriverConfig:
     url = "https://noah-qa.weizhipin.com/dashboard/pages/home"
     cookie = {
         "name": "t_zhipinhr-v2",
-        "value": "6juCLACCt2EA3y3UvLxPV3",
+        "value": "5DZQDby3ovXHjIMaEbuGkz",
     }
     iuc_cookie = {
         "name": "t_uc",
-        "value": "6juCLACCt2EA3y3UvLxPV3",
+        "value": "5DZQDby3ovXHjIMaEbuGkz",
     }
