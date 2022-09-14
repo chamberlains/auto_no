@@ -3,12 +3,14 @@ import unittest
 from selenium import webdriver
 
 from config.driver_config import DriverConfig
+from pages.dashboard import DashboardPage
 
 
 class BaseTest(unittest.TestCase):
     def __init__(self, driver, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self.driver = driver
+        self.dashboard_page = DashboardPage(driver)
 
 
 class UsualTest(unittest.TestCase):
